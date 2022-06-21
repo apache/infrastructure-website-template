@@ -1,0 +1,23 @@
+# See: https://s.apache.org/asfyaml
+
+# enable github issues for website repo
+github:
+  features:
+    issues: true
+
+# change these notification targets to your project lists
+notifications:
+  commits: commits@infra.apache.org
+  issues: users@infra.apache.org
+  pullrequests: users@infra.apache.org
+
+# render the site content using the ASF Pelican Buildbot system
+# into the asf-site branch
+ 
+pelican:
+  notify: notifications@infra.apache.org
+  theme: theme/apache
+  whoami: main
+  target: asf-site
+
+# publishing the site uses the asf-site branch publish/staging block
