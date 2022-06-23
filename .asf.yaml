@@ -4,6 +4,6 @@
 
 staging:
   whoami: asf-site
-  # this will generate infrastructure-template.staged.apache.org
+  # this will generate infra-template.staged.apache.org
   profile: template 
 
