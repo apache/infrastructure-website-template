@@ -1,10 +1,13 @@
+# required fields
 site:
   name: Apache Infrastructure Website Template
   description: Basic ASF Buildbot+Pelican Template
   logo: images/logo.png
   domain: infrastructure-website-template.apache.org
   repository: https://github.com/apache/infrastructure-website-template
+  trademarks: Apache and the Apache feather logo are trademarks of The Apache Software Foundation.
 
+# required field
 theme: theme/apache
 
 plugins:
