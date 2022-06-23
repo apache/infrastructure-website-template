@@ -2,4 +2,8 @@
 
 # publishing the site uses the asf-site branch publish/staging block
 
+staging:
+  whoami: asf-site
+  # this will generate infrastructure-template.staged.apache.org
+  profile: template 
 
