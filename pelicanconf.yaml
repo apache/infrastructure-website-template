@@ -10,9 +10,7 @@ site:
 # required field
 theme: theme/apache
 
+# add any desired plugins to a theme/plugins directory on the main branch
 plugins:
   paths:
     - theme/plugins
-  use:
-    - toc2
-    - gfm
