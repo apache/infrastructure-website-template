@@ -1,1 +1,3 @@
 *.swp
+pelican.auto.py
+site-generated/
