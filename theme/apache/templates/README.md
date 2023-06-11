@@ -37,7 +37,7 @@ This theme uses the following metadata:
 - bodytag. This adds attributes to the `<body>` element.
   This is allows the main `index.ezmd` to have the same template, but with differing layout.
 
-  `<body{% if page.bodytag %} {{ page.bodytag }}{% endif %} >`   
+  `<body{% if page.bodytag %} {{ page.bodytag }}{% endif %} >`
 
 ## Pelican Settings
 
@@ -46,7 +46,7 @@ Pelican settings are provided in the [pelicanconf.yaml](../../../pelicanconf.yam
 ```
 site:
   name: Apache Software Foundation
-  description: The main website of the ASF 
+  description: The main website of the ASF
   domain: www.apache.org
   logo: images/logo.png
   repository: https://github.com/apache/www-site/blob/main/content/
